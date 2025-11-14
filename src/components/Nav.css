@@ -1,0 +1,64 @@
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 2rem;
+  background-color: #f8ffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav_logo img {
+  height: 55px;
+  cursor: pointer;
+}
+
+.nav_input input {
+  width: 350px;
+  padding: 10px 15px;
+  border: 1px solid #cce7e6;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.nav_input input:focus {
+  border-color: #00bfa6;
+  box-shadow: 0 0 5px rgba(0, 191, 166, 0.3);
+}
+
+.nav_buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav_buttons * {
+  text-decoration: none;
+  background-color: #00bfa6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav_buttons button:hover {
+  background-color: #009d8a;
+}
+
+@media (max-width: 768px) {
+  .nav_bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav_input input {
+    width: 90%;
+  }
+}

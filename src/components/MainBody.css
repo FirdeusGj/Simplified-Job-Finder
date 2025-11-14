@@ -1,0 +1,138 @@
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  background-color: #f9fcfc;
+  min-height: 80vh;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.intro h1 {
+  font-size: 2.2rem;
+  color: #007f7d;
+  margin-bottom: 0.5rem;
+}
+
+.intro p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.search-bar input {
+  padding: 10px 15px;
+  border: 1px solid #cce7e6;
+  border-radius: 8px;
+  outline: none;
+  width: 220px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.search-bar input:focus {
+  border-color: #00bfa6;
+}
+
+.search-bar button {
+  background-color: #00bfa6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-bar button:hover {
+  background-color: #009d8a;
+}
+
+.job-list-placeholder {
+  margin-top: 1rem;
+  color: #555;
+  font-size: 1rem;
+}
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.job-card {
+  background: white;
+  border: 1px solid #d8f2ef;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  width: 1040px;
+  transition: all 0.25s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+.company {
+  color: #444;
+  font-weight: 500;
+  margin: 6px 0;
+}
+
+.location {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.skills {
+  margin: 8px 0;
+}
+
+.skill-tag {
+  background-color: #e6f8f6;
+  color: #007f7d;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.desc {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 8px 0 12px;
+}
+
+.apply-btn {
+  background-color: #00bfa6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.apply-btn:hover {
+  background-color: #009d8a;
+}
+.job-card-skills-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
