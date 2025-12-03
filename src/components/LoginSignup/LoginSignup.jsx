@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./LoginSignup.css";
 
 export default function LoginSignup() {
@@ -24,11 +24,11 @@ export default function LoginSignup() {
         <p className="switch-link">
           {isLogin ? (
             <>
-              Don’t have an account? <a href="/signup">Sign up</a>
+              Don’t have an account? <Link to="/signup">Sign up</Link>
             </>
           ) : (
             <>
-              Already have an account? <a href="/login">Login</a>
+              Already have an account? <Link to="/signin">Login</Link>
             </>
           )}
         </p>

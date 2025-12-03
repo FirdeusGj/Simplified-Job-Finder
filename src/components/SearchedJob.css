@@ -1,0 +1,103 @@
+.search-result {
+  width: 90%;
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  height: 100%;
+  min-height: 80vh;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.search-heading {
+  font-size: 1.8rem;
+  color: #007f7d;
+  margin-bottom: 20px;
+}
+.no-results {
+  font-size: 1.1rem;
+  color: #777;
+  margin-top: 40px;
+}
+.search-results-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 100%;
+}
+.searched-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 1080px;
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+}
+.searched-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.searched-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searched-header h3 {
+  font-size: 1.3rem;
+  color: #222;
+}
+.match {
+  background-color: #e0f7f6;
+  color: #007f7d;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.company {
+  font-weight: 500;
+  margin: 10px 0 4px;
+  color: #444;
+}
+.location {
+  color: #777;
+  font-size: 0.95rem;
+}
+.description {
+  margin: 10px 0;
+  color: #555;
+  line-height: 1.4;
+}
+.skills {
+  margin-top: 10px;
+}
+.skill-tag {
+  display: inline-block;
+  background-color: #f0f9f8;
+  color: #007f7d;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  margin: 4px 4px 0 0;
+}
+.job-footer {
+  margin-top: 15px;
+  text-align: right;
+}
+.apply-btn {
+  background-color: #00bfa6;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.apply-btn:hover {
+  background-color: #00a08c;
+}
